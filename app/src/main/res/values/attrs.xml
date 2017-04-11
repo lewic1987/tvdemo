@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MetroView">
+        <attr name="android:src" />
+        <attr name="shadowingWidth" format="dimension"/>
+        <attr name="topShadowingWidth" format="dimension"/>
+        <attr name="bottomShadowingWidth" format="dimension"/>
+        <attr name="leftShadowingWidth" format="dimension"/>
+        <attr name="rightShadowingWidth" format="dimension"/>
+        <attr name="bgcolor" format="color"/>
+        <attr name="hasAnim" format="boolean"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.w.tvdemo.widget.focus.AdapterMetroView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemRL"
+    android:layout_width="@dimen/dp_200"
+    android:layout_height="@dimen/dp_200"
+    android:layout_marginBottom="@dimen/dp_30"
+    android:layout_marginRight="@dimen/dp_30"
+    android:background="@drawable/manager_item_bg"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:id="@+id/itemTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/sp_24" />
+
+
+</com.w.tvdemo.widget.focus.AdapterMetroView>

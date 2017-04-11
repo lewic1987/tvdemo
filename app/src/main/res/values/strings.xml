@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TVDemo</string>
+    <string name="horizontal_recyclerview">横向RecyclerView</string>
+    <string name="vertical_recyclerview">纵向RecyclerView</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_sport"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <com.w.tvdemo.widget.focus.MetroView
+        android:id="@+id/verticalRecyclerView"
+        android:layout_width="@dimen/dp_220"
+        android:layout_height="@dimen/dp_220"
+        android:layout_marginLeft="@dimen/dp_100"
+        android:layout_marginTop="@dimen/dp_100"
+        android:background="@drawable/manager_item_bg"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:onClick="onMyClick">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/vertical_recyclerview"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/sp_24" />
+
+
+    </com.w.tvdemo.widget.focus.MetroView>
+
+    <com.w.tvdemo.widget.focus.MetroView
+        android:id="@+id/horizontalRecyclerView"
+        android:layout_width="@dimen/dp_220"
+        android:layout_height="@dimen/dp_220"
+        android:layout_marginLeft="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_100"
+        android:layout_toRightOf="@+id/verticalRecyclerView"
+        android:background="@drawable/manager_item_bg"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:onClick="onMyClick">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/horizontal_recyclerview"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/sp_24" />
+
+    </com.w.tvdemo.widget.focus.MetroView>
+
+</RelativeLayout>
+
+
